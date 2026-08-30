@@ -1,0 +1,24 @@
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment / secrets (if any tooling is added later)
+.env
+.env.local
+
+# Common local tooling artifacts (not currently used by this static site,
+# kept here in case a build step is added later)
+node_modules/
+dist/
+.cache/
+
+# Logs
+*.log
+npm-debug.log*
