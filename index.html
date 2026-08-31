@@ -108,6 +108,7 @@
 
   .sheetstrip{display:flex;justify-content:space-between;align-items:center;padding:10px 0;font-family:'IBM Plex Mono',monospace;font-size:11.5px;letter-spacing:0.08em;color:var(--blue-soft);border-bottom:1px dashed var(--paper-line);}
   .sheetstrip span{color:var(--ink-soft);}
+  @media(max-width:560px){.sheetstrip-mid{display:none;}}
 
   .quotebanner{background:var(--amber);border-bottom:2px solid var(--navy);}
   .quotebanner .wrap{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:14px;padding:12px 28px;text-align:center;}
@@ -265,7 +266,7 @@
   </div>
   <div class="wrap sheetstrip">
     <span>DWG NO. RI-001</span>
-    <span>RESIDENTIAL HOME INSPECTIONS · PA &amp; NJ · 30 YRS EXPERIENCE</span>
+    <span class="sheetstrip-mid">RESIDENTIAL HOME INSPECTIONS · PA &amp; NJ · 30 YRS EXPERIENCE</span>
     <span>SHEET 1 OF 1</span>
   </div>
 </header>
