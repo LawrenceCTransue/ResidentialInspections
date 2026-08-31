@@ -92,7 +92,7 @@
   @media(max-width:640px){.sheet-border,.crop{display:none;}}
 
   header{position:sticky;top:0;z-index:30;background:rgba(247,247,245,0.94);backdrop-filter:blur(6px);border-bottom:2px solid var(--navy);}
-  .nav{display:flex;align-items:center;justify-content:space-between;padding:18px 0;}
+  .nav{display:flex;align-items:center;justify-content:space-between;padding:18px 0;flex-wrap:wrap;gap:10px;}
   .brand{display:flex;align-items:center;gap:10px;font-family:'Zilla Slab',serif;font-weight:700;font-size:20px;color:var(--navy);}
   .brand .mark{width:34px;height:34px;flex:none;}
   .navlinks{display:none;align-items:center;gap:32px;font-size:14.5px;font-weight:500;color:var(--ink-soft);}
@@ -104,6 +104,7 @@
   .callbtn.ghost{background:transparent;color:var(--navy);}
   .callbtn.ghost:hover{background:rgba(10,14,23,0.06);}
   .navcta{display:flex;gap:10px;}
+  @media(max-width:400px){.brand{font-size:16px;}.brand .mark{width:28px;height:28px;}.callbtn{font-size:11.5px;padding:9px 12px;}}
 
   .sheetstrip{display:flex;justify-content:space-between;align-items:center;padding:10px 0;font-family:'IBM Plex Mono',monospace;font-size:11.5px;letter-spacing:0.08em;color:var(--blue-soft);border-bottom:1px dashed var(--paper-line);}
   .sheetstrip span{color:var(--ink-soft);}
@@ -282,7 +283,7 @@
     <div>
       <div class="eyebrow">30 YEARS OF LEHIGH VALLEY HOME INSPECTIONS</div>
       <h1>Lehigh Valley home<br>inspections, done <em>right.</em></h1>
-      <p class="lead">Buying a home in Allentown, Bethlehem, Easton, or anywhere in between? Get a thorough, unbiased inspection from an inspector with three decades of experience — including a specialty in older and historic homes — with a same-day digital report so you know exactly what you're buying before you close.</p>
+      <p class="lead">Buying a home in Allentown, Bethlehem, Easton, or anywhere in between? Get a thorough, unbiased inspection from an inspector with three decades of experience — including a specialty in older and historic homes — with a next-day digital report so you know exactly what you're buying before you close.</p>
       <div class="hero-ctas">
         <a href="#contact" class="btn btn-primary">Schedule an Inspection →</a>
         <a href="tel:6104170722" class="btn btn-secondary">Call or Text (610) 417-0722</a>
